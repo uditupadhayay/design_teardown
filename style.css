@@ -52,12 +52,11 @@ table {
 /*A little margin on the left side as per the reference url*/
 body{
 	margin-left: 10px;
-	background-color: rgb(0,0,0);
 }
 
 /*setting the width of elements to 100%
 Needed as out blocks are empty and we need them to be displayed*/
-article, header, section, p, h1,img
+article, header, section, p, h2,h3,h1,img
 {
 	width: 100%;
 }
@@ -68,81 +67,79 @@ article, header, section, p, h1,img
 	float: left;
 	width: 190px;
 	height: 1300px;
-	background-color: rgb(10,10,10);  /*temp background*/
 }
 
 .main-navigation header{
 	height: 77px;
-	background-color: rgb(50,50,50); /*temp background*/
+	background-color: rgb(60,60,60);
 }
 
 .site-content-group
 {
 	width: 100%;
 	height: 250px;
-	background-color: rgb(60,60,60); /*temp background*/
+	background-color: rgb(180,180,180);
 }
 
 .site-content-group header{
 	height: 40px;
-	background-color: rgb(70,70,70);/*temporary background color*/
+	background-color: rgb(75,75,75);
 }
 
 .content-wrapper
 {
 	float: left;
 	width: 700px;
-	height: 10180px;
-	background-color: rgb(20,20,20);/*temporary background color*/
+	height: 10200px;
+	box-sizing: border-box;
 }
 
 .content-wrapper header
 {
 	height: 77px;
-	background-color: rgb(80,80,80);/*temporary background color*/
+	background-color: rgb(200,200,200);
 }
 
 .single-article
 {
-	background-color: rgb(90,90,90);/*temporary background color*/
 	height: 1000px;
 }
 
-.single-article h1
+.single-article h3
 {
 	height: 50px;
 	width: 100%;
-	background-color: (100,100,100);/*temporary background color*/
+	background-color: rgb(0,0,0);
 }
 
 .author-details
 {
 	height: 25px;
-	background-color: rgb(110,110,110);/*temporary background color*/
+	background-color: rgb(90,90,90);
 }
 
 .article-details
 {
 	height: 50px;
-	background-color: rgb(120,120,120);/*temporary background color*/
+	background-color: rgb(110,110,110);
 }
 
 .short-desc
 {
 	height: 250px;
-	background-color: rgb(130,130,130);/*temporary background color*/
+	background-color: rgb(15,15,15);
 }
 
 .single-article-img
 {
 	height: 250px;
-	background-color: rgb(140,140,140);/*temporary background color*/
+	background-color: rgb(130,130,130);
 }
 
 .article-text
 {
 	height: 475px;
-	background-color: rgb(150,150,150);/*temporary background color*/
+	background-color: rgb(150,150,150);
 }
 
 aside
@@ -150,42 +147,50 @@ aside
 	float: left;
 	width: 440px;
 	height: 1700px;
-	background-color: rgb(30,30,30);/*temporary background color*/
 }
 
 .search-box
 {
 	height: 100px;
-	background-color: rgb(160,160,160);/*temporary background color*/
+	background-color: rgb(170,170,170);
 }
 
-.advertisement, .promotion
+.advertisement, .promotion:first-of-type
 {
 	height: 200px;
-	background-color: rgb(170,170,170);/*temporary background color*/
+	background-color: rgb(45,45,45);
+}
+
+.promotion
+{
+	background-color: rgb(150,150,150);
 }
 
 .newsletter-subscription
 {
 	height: 200px;
-	background-color: rgb(180,180,180);/*temporary background color*/
+	background-color: rgb(30,30,30);
 }
 
-.book-promo, .jobs
+.book-promo
 {
-	height: 600px;
-	background-color: rgb(190,190,190);/*temporary background color*/
+	height: 800px;
+	background-color: rgb(150,150,150);
 }
 
+.jobs{
+	height: 400px;
+	background-color: rgb(155,155,155);
+}
 .single-book, .single-job
 {
-	background-color: rgb(200,200,200); /*temporary background color*/
 	height: 200px;
 }
+
 footer
 {
 	clear: both;
 	width: 1330px;
 	height: 200px;
-	background-color: rgb(40,40,40); /*temporary background color*/
+	background-color: rgb(210,210,210);
 }
