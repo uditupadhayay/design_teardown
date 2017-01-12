@@ -6,3 +6,7 @@ OdinProject:   http://www.theodinproject.com/courses/html5-and-css3/lessons/desi
 Reference URL: https://www.smashingmagazine.com/
 Start: 12 January 2016, 6:00 PM
 End:
+
+Notes:
+1. I have considered the visible page height while deciding the user attention
+2. I have provided the header to practice proper outlining
