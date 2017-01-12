@@ -10,3 +10,5 @@ End:
 Notes:
 1. I have considered the visible page height while deciding the user attention
 2. I have provided the header to practice proper outlining
+3. Did not bothered to hide the dummy headers, or correct the order in which they
+   are appearing in the document outline.
