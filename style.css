@@ -194,3 +194,36 @@ footer
 	height: 200px;
 	background-color: rgb(210,210,210);
 }
+
+/*This here is for practicing the typography
+To see the color coding as per the user focus all the following
+to be commented or switch to last commit
+*/
+
+.single-article h3, .short-desc, .article-text
+{
+	background-color: #fff;
+	line-height: 1.5em;
+	color: #333;
+}
+
+.single-article h3, .short-desc
+{
+	font-family: "Roboto Slab", serif;
+}
+
+.single-article h3
+{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.short-desc
+{
+	font-size: 22px;
+}
+.article-text
+{
+	font-size: 18px;
+	font-family: "Nunito";
+}
